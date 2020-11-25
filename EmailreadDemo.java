@@ -35,7 +35,7 @@ public class EmailreadDemo {
 			Session session = Session.getInstance(props);
 			
 			Store store = session.getStore("imaps");
-			store.connect("neovaqa.madhura@gmail.com", "neova123");
+			store.connect("##", "neova123");
 			
 			Folder folder = store.getFolder("INBOX");
 			folder.open(Folder.READ_ONLY);
