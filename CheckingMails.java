@@ -62,8 +62,8 @@ public class CheckingMails {
 
       String host = "pop.gmail.com";// change accordingly
       String mailStoreType = "pop3";
-      String username = "qsuryawanshi@gmail.com";// change accordingly
-      String password = "madhura123";// change accordingly
+      String username = "##";// change accordingly
+      String password = "##";// change accordingly
 
       check(host, mailStoreType, username, password);
 
